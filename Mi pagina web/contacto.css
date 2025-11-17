@@ -1,0 +1,135 @@
+.contacto {
+
+  text-align: center;
+
+  margin: 0 auto;
+
+  width: 100%;
+
+}
+
+.contacto a {
+
+  color: #e4bc66;
+
+  text-decoration: none;
+
+}
+
+.contacto a:visited {
+
+  color: #0596f7;
+
+}
+
+.formulario-contacto {
+  
+    display: flex;
+  
+    flex-wrap: wrap;
+  
+    justify-content: space-between;
+  
+    max-width: 800px;
+  
+    margin: 20px auto;
+  
+    padding: 20px;
+  
+    background-color: rgba(0, 0, 0, 0.5);
+  
+    border-radius: 10px;
+  
+}
+
+.campo-form {
+  
+    width: 48%;
+  
+    margin-bottom: 20px;
+  
+}
+
+.campo-form-largo {
+  
+    width: 100%;
+  
+    margin-bottom: 20px;
+  
+}
+
+.campo-form, .campo-form-largo {
+  
+    display: flex;
+  
+    flex-direction: column;
+  
+}
+
+label {
+  
+    color: #e4bc66;
+  
+    margin-bottom: 5px;
+  
+    text-align: left;
+  
+    font-weight: bold;
+  
+}
+
+input[type="text"], input[type="email"], textarea {
+  
+    width: 100%;
+  
+    padding: 10px;
+  
+    border: none;
+  
+    border-radius: 5px;
+  
+    box-sizing: border-box;
+  
+    background-color: rgba(255, 255, 255, 0.9);
+  
+    color: #0a010c;
+  
+}
+
+textarea {
+  
+    resize: vertical;
+  
+}
+
+button[type="submit"] {
+  
+    width: 100%;
+  
+    padding: 15px;
+  
+    background-color: #0596f7;
+  
+    color: white;
+  
+    border: none;
+  
+    border-radius: 5px;
+  
+    cursor: pointer;
+  
+    transition: background-color 0.3s, transform 0.2s;
+  
+    margin-top: 10px;
+  
+    font-size: 1.1em;
+  
+}
+
+button[type="submit"]:hover {
+  
+    background-color: #0178c7;
+  
+    transform: scale(1.01);
+
+}

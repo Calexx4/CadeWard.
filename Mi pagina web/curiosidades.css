@@ -1,0 +1,33 @@
+.curiosidades {
+
+    text-align: center;
+
+    max-width: 900px; 
+
+    margin: 0 auto;  
+
+    line-height: 1.6;
+
+    }
+
+.curiosidades h2 {
+
+    color: #e4bc66;
+
+    margin-bottom: 15px;
+
+}
+
+.curiosidades li {
+
+    color: #fff;
+
+    font-size: 16px;
+    
+    margin-bottom: 10px;
+
+    list-style-type: disc;
+
+    text-align: left;
+
+}

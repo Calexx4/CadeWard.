@@ -1,0 +1,78 @@
+.reparto-contenedor {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 20px;
+    
+    padding: 20px;
+
+}
+
+#reparto {
+
+  margin: 20px auto;
+
+  color: white;
+
+  max-width: 1200px;
+
+  text-align: center;
+
+}
+
+.actor {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  margin-bottom: 15px;
+
+  padding: 15px;
+
+  border-radius: 8px;
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+  max-width: 250px;
+
+  text-align: center;
+
+  transition: transform 0.3s;
+
+}
+
+.actor:hover {
+
+    transform: scale(1.05);
+
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+.actor img {
+
+  width: 100%;
+
+  height: auto;
+
+  border-radius: 8px;
+
+  margin-right: 0;
+  
+  margin-bottom: 10px;
+
+}
+
+.actor p {
+
+    font-size: 0.9em;
+    
+
+}

@@ -1,0 +1,27 @@
+.produccion {
+
+    text-align: center;
+
+    max-width: 900px; 
+
+    margin: 0 auto;  
+
+    line-height: 1.6;
+
+    }
+
+.produccion h2 {
+
+    color: #e4bc66;
+
+    margin-bottom: 15px;
+
+}
+
+.produccion p {
+
+    color: #fff;
+
+    font-size: 16px;
+
+}
